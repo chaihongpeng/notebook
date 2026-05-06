@@ -1,0 +1,62 @@
+结构：HTML
+	语义化标签，使用HTML更应该关注的是标签的语义，而不是标签的样式
+	---------h1、h2标签只是表示几级标题，通过css设置样式h1标签可以比h2标签大，也可以比h2标签小
+		  h1标签的重要性仅次于title，一般情况下标题标签只会使用到h1~h3。h4~h6不比一般标签重要性大，所以可以当做普通标签使用。
+
+	p标签，表示一面中的一个段落，里面不能放别的元素块标签。
+
+	em标签，表示语调的加重，内容可以不重要，可以在一个段落或一个标题当中。行内元素
+	strong标签，表示真正的强调，重要内容。行内元素
+	blockquote标签，引用别人的话。块元素
+	q标签，短引用。行内元素
+
+
+	结构化语义标签
+		主要用于网页的布局
+	网页的结构标签和语义化标签：
+	header表示网页的头部
+	main表示网页的主体
+	footer表示网页的末尾
+	nav表示网页的导航
+	aside和主体相关的其他内容（侧边栏）
+	article表示一个文章
+	h1~h6表示网页的标题
+
+	元素的分类： 
+		块元素，通过块元素对页面进行布局。
+		行内元素，主要用于包裹文字，设置一些特效。
+		--------一般会在块元素中放行内元素或块元素，而不会在行内元素当中放块元素。
+		
+
+
+
+表现：CSS
+行为：JS
+
+
+HTML的标签结构：
+<!doctype htm>
+<html lang="zh">
+<head>
+    <!--
+    meta的作用：
+        设置字符编码集
+        表示网站的关键字，keywords
+        设置网页的描述信息，description
+        设置网页的重定向信息，
+        -->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="html,css,前端,学习笔记">
+    <meta name="description" content="这里是网站描述">
+    <meta http-equiv="refresh" content="3;url=https://www.baidu.com">
+    
+    <!--  设置网页的标题  -->
+    <title>Document</title>
+</head>
+<body>
+    <h1>静夜思</h1>
+    <h2>窗前明月光</h2>
+</body>
+</html>
+
+

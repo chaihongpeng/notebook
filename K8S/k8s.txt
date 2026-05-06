@@ -1,0 +1,17 @@
+- Master控制面板
+- Node节
+
+k8s资源清单
+
+
+`sudo swapoff -a`
+`/etc/fstab` `systemd.swap`
+
+tar
+
+-c 压缩新的备份文件
+-x 从备份文件中还原文件
+-v 显示指令执行过程
+-f 指定备份文件
+-z 通过gzip指令处理备份文件.(如果解压文件后缀是.tar,没有.gz则不需要-z参数)
+-C 指定解压到的目录
